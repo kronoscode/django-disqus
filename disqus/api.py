@@ -1,6 +1,7 @@
+import json
+
 from urllib import urlencode
 import urllib2
-import json
 
 # A custom ProxyHandler for the urllib2 module that will not
 # auto-detect proxy settings
