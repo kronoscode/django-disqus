@@ -52,7 +52,6 @@ def generic_setter_compiler(var_name, name, node_class, parser, token):
         raise template.TemplateSyntaxError(message)
     return node_class(var_name, bits[1:])
 
->>>>>>> 1dfd32372cf68f77ce2e757ad033abb485d602ae
 # Set the disqus_developer variable to 0/1. Default is 0
 @register.simple_tag(takes_context=True)
 def set_disqus_developer(context, disqus_developer):
